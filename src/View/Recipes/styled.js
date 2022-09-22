@@ -36,6 +36,7 @@ export const ContainerImg = styled.section`
 export const OptionsRecipes = styled.div`
   background: #fff;
   margin: 10px;
+  height: fit-content;
   -webkit-box-shadow: 11px 21px 12px 1px rgba(0, 0, 0, 0.24);
   -moz-box-shadow: 11px 21px 12px 1px rgba(0, 0, 0, 0.24);
   box-shadow: 11px 21px 12px 1px rgba(0, 0, 0, 0.24);
