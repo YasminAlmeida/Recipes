@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import * as S from './styled.js';
 import Cake from '../../Img/cake.png';
 import Pizza from '../../Img/pizzamargherita.png';
@@ -6,6 +6,10 @@ import smoothie from '../../Img/smoothie.png';
 import Spoon from '../../Img/grabowska.png';
 
 export default function Recipes() {
+  const [cake, setCake] = useState(false);
+  const [pizza, setPizza] = useState(false);
+  const [peanut, setPeanut] = useState(false);
+
   return (
     <section>
       <S.ContainerRecipe>
@@ -15,7 +19,7 @@ export default function Recipes() {
             <div>
               <S.ImgRecipe src={Cake} alt="Red Velvet Cake" />
             </div>
-            <S.TextOptions>
+            <S.TextOptions show={cake} onClick={() => setCake(!cake)}>
               <S.NameImg>Red Velvet Cake</S.NameImg>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
@@ -28,7 +32,7 @@ export default function Recipes() {
             <div>
               <S.ImgRecipe src={Pizza} alt="Margherita Pizza" />
             </div>
-            <S.TextOptions>
+            <S.TextOptions show={pizza} onClick={() => setPizza(!pizza)}>
               <S.NameImg>Margherita Pizza</S.NameImg>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
@@ -41,7 +45,7 @@ export default function Recipes() {
             <div>
               <S.ImgRecipe src={smoothie} alt="Peanut Smoothie" />
             </div>
-            <S.TextOptions>
+            <S.TextOptions show={peanut} onClick={() => setPeanut(!peanut)}>
               <S.NameImg>Peanut Smoothie</S.NameImg>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi

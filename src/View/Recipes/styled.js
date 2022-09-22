@@ -67,6 +67,10 @@ export const TextOptions = styled.div`
   text-align: justify;
   padding: 20px 40px 30px 40px;
   align-items: center;
+  cursor: pointer;
+  p {
+    display: ${(props) => (props.show === true ? 'flex' : 'none')};
+  }
 `;
 export const FolderImg = styled.section`
   display: grid;
