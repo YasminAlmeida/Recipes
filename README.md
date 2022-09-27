@@ -4,4 +4,4 @@
 <p>Página de Receitas</p>
 </br>
 
-![172502157-2c116dd8-0e3f-4c69-8c40-af0a083b3597](https://user-images.githubusercontent.com/100879182/191859160-5ee88135-f4cd-4cad-ae4f-83ba547229c6.png)
+[Recipes.webm](https://user-images.githubusercontent.com/100879182/192415227-0893fea7-8e1f-477f-99a2-d7c969c657b1.webm)
