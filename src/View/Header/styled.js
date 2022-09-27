@@ -3,7 +3,7 @@ import fundo from '../../Img/Fundo.png';
 
 export const ContainerHeader = styled.section`
   background-image: url(${fundo});
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
   margin: 1%;
   height: 120vh;
