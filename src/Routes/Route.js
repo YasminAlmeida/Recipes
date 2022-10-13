@@ -9,7 +9,7 @@ export default function Router() {
     <BrowserRouter>
       <Header />
       <Routes>
-        <Route path="/" element={<Recipes />} />
+        <Route path="/Recipes" element={<Recipes />} />
       </Routes>
       <Footer />
     </BrowserRouter>
